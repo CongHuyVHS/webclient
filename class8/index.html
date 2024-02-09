@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Registration Form</title>
+    <link href="styles.css" rel ="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    
+    <form>
+        <div>
+            <br><br>
+            <label for="course">Select course:</label><br>
+            <input id="course" type="text" placeholder="Enter program">
+        </div>
+        <div>
+            <label for="Grades">Profile Grades:</label><br>
+            <input id="grade" type="text" placeholder="Enter your profile grades">
+        </div>
+        <div>
+            <label for="Email">Email:</label><br>
+            <input id="email" type="email" placeholder="Enter your email">
+        </div>
+        <div>
+            <label for="equivalence">profile equivalence:</label><br>
+            <input id="equivalence" type="text" placeholder="Enter profile equivalence">
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="Male" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female" value="Female">
+            <label for="Female">Female</label>
+            
+        </div>
+        <div>
+            <label for="study">Mode of study:</label>
+            <input type="radio" name="study" id="full" value="full">
+            <label for="full">Full-Time</label>
+            <input type="radio" name="study" id="part" value="part">
+            <label for="part">Part-time</label>
+        </div>
+        <div>
+            <label for="activities">Choose Extracurricular Activities:</label><br>
+            <input type="checkbox" id="sport">
+            <label for="newsLetter">sport</label><br>
+            <input type="checkbox" id="music">
+            <label for="newsLetter">music</label><br>
+            <input type="checkbox" id="coding">
+            <label for="newsLetter">coding</label>
+
+        </div>
+        <div>
+            <label for="creative">Creative arts hobbies</label>
+            <select id="creative">
+                <option value="act">Acting</option>
+            </select>
+        </div>
+        <div>
+            <label for="info">Additional informantion:</label><br>
+            <textarea id="message"> </textarea>
+        </div>
+        <div>
+            <label for="info">Location on Map:</label><br>
+            <img src="university.jpg" alt="university" />
+        </div>
+        <div class=" button-container">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        </div>
+
+    </form>
+
+
+</body>
+<footer>
+
+<p>2024 University Registration Form</p>
+
+</footer>
+</html>
